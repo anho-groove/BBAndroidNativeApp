@@ -1,52 +1,39 @@
-# Prerequisites
-*.d
+#built application files
+*.apk
+*.ap_
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# files for the dex VM
+*.dex
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Java class files
+*.class
 
-# Precompiled Headers
-*.gch
-*.pch
+# generated files
+bin/
+gen/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Windows thumbnail db
+Thumbs.db
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# OSX files
+.DS_Store
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Eclipse project files
+.classpath
+.project
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+
+#NDK
+obj/
+
+
+
